@@ -1,0 +1,11 @@
+#在""中间 填入你之前找botfather申请的api
+token: "${TOKEN}"
+admins:
+  #把数字修改为你的个人 telegram id 在上方获取过
+  - ${CHAT_ID}
+flags:
+  #将所有图像消息作为文件发送,以防止主动报文的图像压缩.需要更多的流量,可以关闭,改为false
+  send_image_as_file: true
+  #启用对动画贴纸的实验性支持启用对动画贴纸的实验性支持,该依赖已包含在教程依赖
+  animated_stickers: true
+  default_media_prompt: text
